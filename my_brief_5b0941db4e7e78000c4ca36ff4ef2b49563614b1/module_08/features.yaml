@@ -1,0 +1,29 @@
+- so_that: So that students can connect easily
+  as_a: Student and User
+  headline: Matched Schedules
+  i_want: >-
+    To see who is in other sections of the same course, creating meaningful
+    groups beyond Canvas Discussion Boards
+  value_why: Promotes User Engagement and Interconnectivity
+  tech_note: >-
+    Enables cross-section networking, extending beyond existing discussion
+    tools. | advice: Leverage existing enrollment API; cache results for
+    performance. | risk: Privacy concerns if student data exposed without
+    consent.
+  business_value: 35
+- tech_note: ' comment: Allows faculty oversight of peer connections and activity. | advice: Implement role‑based access controls and audit logs. | risk: Potential over‑monitoring could deter student participation. '
+  i_want: It will have faculty monitoring
+  value_why: Legitimizes App Under Universities Guidelines, Promotes Safety of Use
+  headline: 'Integral Integrity '
+  as_a: Student and User
+  so_that: So that students do not cheat
+  business_value: 25
+- tech_note: >-
+    Headline: Easy Sign Up | business_value: 40% | why: Automates onboarding,
+    increasing users and potential study support network. 
+  i_want: Students will have an email sent to them at the beginning of each year
+  value_why: Simplifies onboarding, grows user base
+  headline: Easy Sign Up
+  as_a: Student and User
+  so_that: So that it is easy to sign up
+  business_value: 40
